@@ -5,6 +5,7 @@ positive number. */
 #include <stdlib.h>
 #include <math.h>
 
+//Comment before main
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
