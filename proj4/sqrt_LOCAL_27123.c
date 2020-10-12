@@ -38,8 +38,7 @@ int main(int argc, char* argv[]) {
 	else{
 		printf("Input is not a valid number\n");	
 	}
-	// Comment added in negativeSupport to check for conflicts
-
+	// New line added in master to check for conflicts
 	printf("End of program exiting...\n");			
 	return(0);
 
