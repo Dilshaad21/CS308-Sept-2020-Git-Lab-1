@@ -9,7 +9,7 @@ positive number. */
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {	
-		printf("Usage: sqrt input\n\n");
+		printf("NEGSUPPORT:Usage: sqrt input\n\n");
 		exit(-1);
 	}
 	char *ch = argv[1], *ch1;
@@ -28,18 +28,18 @@ int main(int argc, char* argv[]) {
 		if(*ch1==45){
 			argv[1]++;
 			input = atoi(argv[1]);
-			printf("Sqrt of -%d is %fi\n",input,sqrt(input));		
+			printf("NEGSUPPORT:Sqrt of -%d is %fi\n",input,sqrt(input));		
 		}
 		else{
 			input = atoi(argv[1]);
-			printf("Sqrt of %d is %f\n",input,sqrt(input));
+			printf("NEGSUPPORT:Sqrt of %d is %f\n",input,sqrt(input));
 		}		
 	}
 	else{
-		printf("Input is not a valid number\n");	
+		printf("NEGSUPPORT:Input is not a valid number\n");	
 	}
 	// Comment added in negativeSupport to check for conflicts
-	printf("End of program exiting...\n");			
+	printf("NEGSUPPORT:End of program exiting...\n");			
 	return(0);
 
 } // end main
