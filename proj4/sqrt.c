@@ -23,6 +23,7 @@ int main(int argc, char* argv[]) {
 		}	
 		ch++;		
 	}
+ 
 	if(flag==1){
 		int input;		
 		if(*ch1==45){
